@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+body {
+    --max-width: 1200px;
+    --background: #212121;
+    --color: #fff;
+    /* root */
+    height: 100vh;
+    width: 100%;
+    background: var(--background);
+    color: var(--color);
+    font-family: averta;
+    overflow: hidden;
+}
+body.active{
+    height: unset;
+    min-height: 100vh;
+    overflow: unset;
+    overflow-x: hidden;
+}
+/* body */
+
+/* fonts */
+@font-face {
+    font-family: Averta;
+    src: url("../fonts/AvertaRegular.ttf");
+}
+@font-face {
+    font-family: AvertaSemi;
+    src: url("../fonts/AvertaSemibold.ttf");
+}
+@font-face {
+    font-family: AvertaBold;
+    src: url("../fonts/AvertaBolder.otf");
+}
+@font-face {
+    font-family: Tiny;
+    src: url("../fonts/Tiny.ttf");
+}
+@font-face {
+    font-family: Graphire;
+    src: url("../fonts/Graphire.ttf");
+}
+@font-face {
+    font-family: Legquinne;
+    src: url("../fonts/Legquinne.otf");
+}
+/* fonts */
+
+/* selection */
+::selection {
+    color: var(--background);
+    background: var(--color);
+}
+/* selection */
