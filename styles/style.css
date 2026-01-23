@@ -1,0 +1,83 @@
+.sec1 {
+    min-height: 800px;
+    display: grid;
+    grid-template-rows: 40%;
+}
+.sec1 .m-text {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 .m-text h1 {
+    font-family: graphire;
+    line-height: 100%;
+    font-size: 60px;
+}
+.sec1 .s- {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+}
+.sec1 .s- .s-text {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: graphire;
+    line-height: 100%;
+    font-size: 30px;
+}
+.sec1 .s- .image {
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 .s- .image .image-content {
+    /* border: 1px solid green; */
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mask-image: linear-gradient(
+        to top,
+        #0000,
+        var(--background) 60% 40%,
+        #0000
+    );
+}
+.sec1 .s- .image .image-content img {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    mask-image: linear-gradient(
+        to right,
+        #0000,
+        var(--background) 60% 40%,
+        #0000
+    );
+}
+
+/* responsive */
+@media screen and (max-width: 1680px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1360px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 885px) {
+}
+@media screen and (max-width: 430px) {
+}
+@media screen and (max-width: 390px) {
+}

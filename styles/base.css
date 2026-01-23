@@ -6,11 +6,13 @@
     text-decoration: none;
     font-weight: 100;
     text-transform: capitalize;
+    color: var(--color);
 }
 body {
-    --max-width: 1200px;
+    --max-width: 1300px;
     --background: #212121;
     --color: #fff;
+    --p-size: 16px;
     /* root */
     height: 100vh;
     width: 100%;
@@ -19,13 +21,18 @@ body {
     font-family: averta;
     overflow: hidden;
 }
-body.active{
+body.active {
     height: unset;
     min-height: 100vh;
     overflow: unset;
     overflow-x: hidden;
 }
 /* body */
+
+a,
+p {
+    font-size: var(--p-size);
+}
 
 /* fonts */
 @font-face {
@@ -60,3 +67,57 @@ body.active{
     background: var(--color);
 }
 /* selection */
+
+nav {
+    border: 1px solid red;
+    height: 7.5vh;
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a.logo {
+    font-family: tiny;
+    font-size: 20px;
+}
+nav ul li {
+    display: inline;
+    border: 1px solid red;
+    margin: 0;
+}
+nav ul li a {
+    padding: 10px;
+}
+/* nav */
+
+.container {
+    border: 1px solid red;
+    min-height: calc(100vh - 100px - 400px);
+    width: var(--max-width);
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.container section {
+    border: 1px solid red;
+    margin: 0 0 100px 0;
+}
+/* container */
+
+/* responsive */
+@media screen and (max-width: 1680px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1360px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 885px) {
+}
+@media screen and (max-width: 430px) {
+}
+@media screen and (max-width: 390px) {
+}
