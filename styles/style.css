@@ -30,16 +30,39 @@
     line-height: 100%;
     font-size: 30px;
 }
+.sec1 .s- .s-text h2 {
+    font-size: var(--h2-size);
+}
 .sec1 .s- .image {
+    position: relative;
     border: 1px solid blue;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: visible;
+}
+.sec1 .s- .image::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 70%;
+    background: linear-gradient(to left, #0000, #f00, #0000);
+    transform: translateY(-22.5px);
+}
+.sec1 .s- .image::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    background: red;
+    transform: translateY(-22.5px);
+    z-index: 1;
+    filter: blur(20px);
 }
 .sec1 .s- .image .image-content {
-    /* border: 1px solid green; */
+    position: relative;
     width: 90%;
     height: auto;
     display: flex;
@@ -51,9 +74,19 @@
         var(--background) 60% 40%,
         #0000
     );
+    overflow: visible;
+}
+.sec1 .s- .image .image-content::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 80%;
+    background: red;
+    transform: translateY(-22.5px);
+    z-index: 1;
+    filter: blur(50px);
 }
 .sec1 .s- .image .image-content img {
-    /* border: 1px solid red; */
     width: 100%;
     height: auto;
     mask-image: linear-gradient(
@@ -62,8 +95,8 @@
         var(--background) 60% 40%,
         #0000
     );
+    overflow: visible;
 }
-
 /* responsive */
 @media screen and (max-width: 1680px) {
 }

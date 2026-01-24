@@ -12,6 +12,7 @@ body {
     --max-width: 1300px;
     --background: #212121;
     --color: #fff;
+    --h2-size: 35px;
     --p-size: 16px;
     /* root */
     height: 100vh;
@@ -32,6 +33,9 @@ body.active {
 a,
 p {
     font-size: var(--p-size);
+}
+h2{
+    font-size: var(--h2-size);
 }
 
 /* fonts */

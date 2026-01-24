@@ -11,7 +11,7 @@
     pointer-events: none;
     transition: 0.5s ease opacity;
     opacity: 0;
-    z-index: 1;
+    z-index: 5;
 }
 .loader.active {
     opacity: 1;
