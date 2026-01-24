@@ -1,0 +1,42 @@
+[
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "Best seller \n this week",
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    },
+    {
+        "name": "product name",
+        "desc": "product desc",
+        "price": 1000,
+        "image": "./assets/banner.avif"
+    }
+]

@@ -4,7 +4,6 @@
     grid-template-rows: 40%;
 }
 .sec1 .m-text {
-    border: 1px solid red;
     text-align: center;
     display: flex;
     align-items: center;
@@ -16,26 +15,22 @@
     font-size: 60px;
 }
 .sec1 .s- {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 50% 1fr;
 }
 .sec1 .s- .s-text {
-    border: 1px solid red;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: graphire;
-    line-height: 100%;
-    font-size: 30px;
 }
 .sec1 .s- .s-text h2 {
+    font-family: legquinne;
+    line-height: 100%;
     font-size: var(--h2-size);
 }
 .sec1 .s- .image {
     position: relative;
-    border: 1px solid blue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -94,6 +89,143 @@
         #0000
     );
 }
+/* section one */
+
+.sec2 .content {
+    min-height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.sec2 .content .card {
+    position: relative;
+    background: var(--background);
+    padding: 20px;
+    border: 1px solid #111;
+    box-shadow: inset 0 0 1000px #1111115d;
+    overflow: hidden;
+}
+.sec2 .content .card span {
+    font-size: 150px;
+    line-height: 100%;
+    color: #ffffff18;
+    user-select: none;
+}
+.sec2 .content .card h3 {
+    padding: 10px 0;
+}
+/* section two */
+
+.container .sec3 {
+    margin: 200px 0 100px 0;
+}
+.sec3 .image {
+    border-radius: 10%;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mask-image: linear-gradient(
+        to top,
+        #0000,
+        var(--background) 40% 50%,
+        #0000
+    );
+}
+.sec3 .image img {
+    border-radius: 10%;
+    height: auto;
+    width: 100%;
+    mask-image: linear-gradient(
+        to right,
+        #0000,
+        var(--background) 50% 50%,
+        #0000
+    );
+}
+[data-img] {
+    position: relative;
+}
+[data-img="l"] {
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+}
+/* section three */
+
+/* .sec4 .content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.sec4 .content .card {
+    border-radius: 20px;
+    background: #3f3f3f3a;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px #0000007e;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+}
+.sec4 .content .card .image img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.sec4 .content .card .text {
+    position: relative;
+    height: 121px;
+    padding: 0 10px;
+}
+.sec4 .content .card .text h3 {
+    padding: 5px 0;
+}
+.sec4 .content .card .text span {
+    color: #b1b1b1;
+}
+.sec4 .content .card .text p {
+    position: absolute;
+    bottom: 10px;
+}
+.sec4 .content .card:nth-child(3) {
+    position: relative;
+    grid-column: span 2;
+    max-height: 350px;
+}
+.sec4 .content .card:nth-child(3)::after {
+    content: "Best Seller \A This Week";
+    white-space: pre;
+    height: calc(100% - 20px);
+    width: calc(100% - 60px);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(to right top, #000, #0000);
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    font-family: Legquinne;
+    line-height: 100%;
+    font-size: 40px;
+    padding: 0 20px;
+}
+.sec4 .content .card:nth-child(3) .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec4 .content .card:nth-child(3) .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+/* section three */
+/* section three */
+
 /* responsive */
 @media screen and (max-width: 1680px) {
 }
