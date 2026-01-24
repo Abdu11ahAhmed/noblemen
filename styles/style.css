@@ -41,7 +41,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: visible;
 }
 .sec1 .s- .image::after {
     content: "";
@@ -74,7 +73,6 @@
         var(--background) 60% 40%,
         #0000
     );
-    overflow: visible;
 }
 .sec1 .s- .image .image-content::after {
     content: "";
@@ -95,7 +93,6 @@
         var(--background) 60% 40%,
         #0000
     );
-    overflow: visible;
 }
 /* responsive */
 @media screen and (max-width: 1680px) {
