@@ -155,6 +155,75 @@
 }
 /* section three */
 
+.sec4 .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.sec4 .content .card {
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0 0 20px #111;
+}
+.sec4 .content .card .image {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.sec4 .content .card .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.sec4 .content .card .text {
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sec4 .content .card .text p {
+    color: #888888;
+}
+
+.sec4 .content .card:nth-child(3) {
+    position: relative;
+    grid-column: span 2;
+    overflow: hidden;
+}
+.sec4 .content .card:nth-child(3) .image {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.sec4 .content .card:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top right, #000, #0000);
+
+}
+.sec4 .content .card:nth-child(3)::after {
+    content: "Best Seller \A This Week";
+    white-space: pre;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    font-family: Legquinne;
+    line-height: 100%;
+    font-size: 40px;
+    padding: 0 20px;
+    transform: translateY(-10px);
+}
 /* .sec4 .content {
     position: relative;
     display: grid;
