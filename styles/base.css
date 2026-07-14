@@ -99,6 +99,27 @@ nav ul li a {
 }
 /* nav */
 
+/* internet */
+.internet {
+    position: fixed;
+    bottom: -120%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: rgba(255, 255, 255, 0.212);
+    color: #ff000033;
+    padding: 10px 20px;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transition: 1s bottom cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.internet a {
+    padding: 0 0 0 10px;
+    color: rgb(0, 255, 0);
+}
+/* internet */
+
 .container {
     /* border: 1px solid red; */
     min-height: calc(100vh - 100px - 400px);

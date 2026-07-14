@@ -64,6 +64,9 @@ bestSellerReq.onreadystatechange = function () {
 
             text.style.height = card.offsetHeight - image.offsetHeight + "px";
 
+            console.log(card.offsetHeight, "rhushuhds")
+            console.log(image.offsetHeight, "rhushuhds")
+
             let title = document.createElement("div");
             text.append(title);
 

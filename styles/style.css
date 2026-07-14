@@ -72,10 +72,10 @@
 .sec1 .s- .image .image-content::after {
     content: "";
     position: absolute;
-    height: 50px;
-    width: 80%;
+    height: 60px;
+    width: 50%;
     background: red;
-    transform: translateY(-22.5px);
+    transform: translateY(-27.5px);
     z-index: 1;
     filter: blur(50px);
 }
@@ -99,17 +99,18 @@
 }
 .sec2 .content .card {
     position: relative;
-    background: var(--background);
+    background: #3f3f3f3a;
+    background: linear-gradient(to top left, #3f3f3f3a, #00000030);
     padding: 20px;
-    border: 1px solid #111;
-    box-shadow: inset 0 0 1000px #1111115d;
     overflow: hidden;
+    /* box-shadow: 0 10px 20px #0000007e; */
+    border-top: 1px solid rgba(104, 104, 104, 0.055);
+    border-left: 1px solid rgba(104, 104, 104, 0.055);
 }
 .sec2 .content .card span {
     font-size: 150px;
     line-height: 100%;
     color: #ffffff18;
-    user-select: none;
 }
 .sec2 .content .card h3 {
     padding: 10px 0;
@@ -161,9 +162,13 @@
     gap: 20px;
 }
 .sec4 .content .card {
-    border-radius: 10px;
+    border-radius: 20px;
     height: 350px;
     box-shadow: 0 0 20px #111;
+    border-top: 1px solid rgba(104, 104, 104, 0.055);
+    border-left: 1px solid rgba(104, 104, 104, 0.055);
+    background: #3f3f3f3a;
+    background: linear-gradient(to top left, #3f3f3f3a, #00000030);
 }
 .sec4 .content .card .image {
     height: 200px;
@@ -173,11 +178,11 @@
 .sec4 .content .card .image img {
     height: 100%;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     object-fit: cover;
 }
 .sec4 .content .card .text {
-    padding: 10px 20px 20px 20px;
+    padding: 5px 20px 20px 20px;
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -191,6 +196,7 @@
     position: relative;
     grid-column: span 2;
     overflow: hidden;
+    border: 10px solid var(--background);
 }
 .sec4 .content .card:nth-child(3) .image {
     height: 100%;
@@ -206,7 +212,6 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(to top right, #000, #0000);
-
 }
 .sec4 .content .card:nth-child(3)::after {
     content: "Best Seller \A This Week";
@@ -224,74 +229,7 @@
     padding: 0 20px;
     transform: translateY(-10px);
 }
-/* .sec4 .content {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-}
-.sec4 .content .card {
-    border-radius: 20px;
-    background: #3f3f3f3a;
-    padding: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px #0000007e;
-    cursor: pointer;
-    backdrop-filter: blur(20px);
-}
-.sec4 .content .card .image img {
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
-}
-.sec4 .content .card .text {
-    position: relative;
-    height: 121px;
-    padding: 0 10px;
-}
-.sec4 .content .card .text h3 {
-    padding: 5px 0;
-}
-.sec4 .content .card .text span {
-    color: #b1b1b1;
-}
-.sec4 .content .card .text p {
-    position: absolute;
-    bottom: 10px;
-}
-.sec4 .content .card:nth-child(3) {
-    position: relative;
-    grid-column: span 2;
-    max-height: 350px;
-}
-.sec4 .content .card:nth-child(3)::after {
-    content: "Best Seller \A This Week";
-    white-space: pre;
-    height: calc(100% - 20px);
-    width: calc(100% - 60px);
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: linear-gradient(to right top, #000, #0000);
-    border-radius: 10px;
-    display: flex;
-    align-items: end;
-    font-family: Legquinne;
-    line-height: 100%;
-    font-size: 40px;
-    padding: 0 20px;
-}
-.sec4 .content .card:nth-child(3) .image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.sec4 .content .card:nth-child(3) .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
+
 /* section three */
 /* section three */
 

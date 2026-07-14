@@ -1,42 +1,42 @@
 [
     {
-        "name": "product name",
+        "name": "Porsche Missein E",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-sellerPorsche.avif"
     },
     {
-        "name": "product name",
+        "name": "Mercedes S-300",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-sellerS-300.avif"
     },
     {
         "name": "",
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-seller.avif"
     },
     {
-        "name": "product name",
+        "name": "Bentley Mulliner",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-sellerBentley.avif"
     },
     {
-        "name": "product name",
+        "name": "Porsche Cayenne 2023",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-seller.avif"
     },
     {
-        "name": "product name",
+        "name": "Mercedes AMG",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/best-sellerAMG.avif"
     },
     {
-        "name": "product name",
+        "name": "Range Rover Sport",
         "desc": "product desc",
         "price": 1000,
-        "image": "./assets/banner.avif"
+        "image": "./assets/best-seller/bestsellerrangerover.avif"
     }
 ]
