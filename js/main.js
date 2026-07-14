@@ -12,9 +12,9 @@ window.addEventListener("load", () => {
     let intro = new Audio(),
         onlineAudio = new Audio(),
         offlineAudio = new Audio();
-    intro.src = "../assets/best-seller/sounds/intro.mp3";
-    onlineAudio.src = "../assets/best-seller/sounds/core.mp3";
-    onlineAudio.src = "../assets/best-seller/sounds/core.mp3";
+    intro.src = "/assets/best-seller/sounds/intro.mp3";
+    onlineAudio.src = "/assets/best-seller/sounds/core.mp3";
+    onlineAudio.src = "/assets/best-seller/sounds/core.mp3";
     intro.play();
 
     window.addEventListener("offline", () => {
