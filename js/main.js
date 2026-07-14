@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
         onlineAudio = new Audio(),
         offlineAudio = new Audio();
     intro.src = "../assets/best-seller/sounds/intro.mp3";
-    onlineAudio.src = "../assets/best-seller/sounds/core.mp3";
+    onlineAudio.src = "assets/best-seller/sounds/core.mp3";
     onlineAudio.src = "../assets/best-seller/sounds/core.mp3";
     intro.play();
 
